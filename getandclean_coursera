@@ -1,4 +1,4 @@
-# R code to get and clean data 
+# R code and script to get and clean data 
 
 # Get Test Data
 setwd(
