@@ -1,5 +1,15 @@
 # Coursera-Getting-And-Cleaning-Data-Assignment
 
+## Relationships
+
+Please refer to this repository codebook.rmd for a description of the data, variables and transformatiosn
+
+Please refer to run_analysis.R for the script and code of the analysis
+
+Please refer to tidy_data_final.txt for the final output with after getting and cleaning the data
+
+## Context
+
 Peer-graded Assignment: Getting and Cleaning Data Course Project
 
 Review criteria
@@ -28,4 +38,10 @@ You should create one R script called run_analysis.R that does the following.
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Good luck!
+## Relationships
+
+Please refer to this repository codebook.rmd for a description of the data, variables and transformatiosn
+
+Please refer to run_analysis.R for the script and code of the analysis
+
+Please refer to tidy_data_final.txt for the final output with after getting and cleaning the data
