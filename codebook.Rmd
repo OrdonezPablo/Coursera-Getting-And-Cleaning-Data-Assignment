@@ -1,0 +1,43 @@
+---
+title: "CodeBook_Coursera_Getting and Cleaning Data Assignment"
+output: html_document
+---
+This is a codebook with the variables for project assignment output: tidy_data_final.txt which is a data frame with 81 variables and 180 observations.
+
+For more background of the project please refer to the README.md file
+
+## 1. Variables:
+
+1. Subject: subjects from 1 to 30
+
+2. Activity:
+
+* WALKING: subject was walking
+* WALKING_UPSTAIRS: subject was walking upstairs
+* WALKING_DOWNSTAIRS: subject was walking downstairs
+* SITTING: subject was sitting
+* STANDING: subject was standing
+* LAYING: subject was laying
+
+3. Please refer to the following reference for the rest of the measurements. This project selected only the mean and standard deviation related variables.
+
+## 2. The Data
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Here are the data for the project:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+
+## 3. Transformations
+
+The following transformations were made:
+
+the R script called run_analysis.R that does the following.
+
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+Appropriately labels the data set with descriptive variable names.
+4. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
